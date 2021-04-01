@@ -1,6 +1,6 @@
 {
-  "short_name": "Medii",
-  "name": "follow your Artist",
+  "short_name": "diariko",
+  "name": "diariko",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#111217"
+  "theme_color": "#111217",
+  "background_color": "#ffffff"
 }
