@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3306
 const db = require('./dbconfig')
 
 app.use(cors({
-    origin: "https://www.loving-mendel.144-91-112-39.plesk.page/",
+    origin: "https://www.loving-mendel.144-91-112-39.plesk.page",
     credentials: true
 }))
 app.use(express.json())
