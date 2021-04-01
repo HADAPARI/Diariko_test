@@ -336,13 +336,13 @@ app.post("/diariko/user/getPhoto", (req,res) => {
     res.send({diarikoXsrf: diarikoXsrf, buffer: buffer})
 })
 
-// app.post("/test", (req,res) => {
-//     res.cookie("test","test cookie",{
-//         maxAge: 30000,
-//         httpOnly: true,
-//         secure: true
-//     })
-//     res.send("ok ok")
-// })
+app.post("/test", (req,res) => {
+    res.cookie("test","test cookie",{
+        maxAge: 30000,
+        httpOnly: true,
+        secure: true
+    })
+    res.send("OK, ça marche")
+})
 
 app.listen(PORT,()=>console.info(`Server listen on port: ${PORT}`))
