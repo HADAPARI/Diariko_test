@@ -9,7 +9,7 @@ const cookieParser = require('cookie-parser')
 const fs = require('fs')
 
 const app = express()
-const PORT = process.env.PORT || 4455
+const PORT = process.env.SERVER_PORT || 4455
 const db = require('./dbconfig')
 
 app.use(cors({
