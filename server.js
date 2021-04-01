@@ -9,11 +9,11 @@ const cookieParser = require('cookie-parser')
 const fs = require('fs')
 
 const app = express()
-const PORT = process.env.PORT || 4455
+const PORT = process.env.PORT || 3306
 const db = require('./dbconfig')
 
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://www.loving-mendel.144-91-112-39.plesk.page/",
     credentials: true
 }))
 app.use(express.json())
