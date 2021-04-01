@@ -336,7 +336,7 @@ app.post("/diariko/user/getPhoto", (req,res) => {
     res.send({diarikoXsrf: diarikoXsrf, buffer: buffer})
 })
 
-app.post("/test", (req,res) => {
+app.post("/diariko/test", (req,res) => {
     res.cookie("test","test cookie",{
         maxAge: 30000,
         httpOnly: true,
